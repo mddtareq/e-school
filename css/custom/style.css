@@ -1,0 +1,136 @@
+/* container bottomstyle */
+.container-btm{
+    margin-bottom: 75px;
+}
+/* heading section coloring */
+.heading-color{
+    background: rgba(186, 241, 212, 0.25);
+}
+/* navbar  */
+/* logo-resize style */
+.logo-resize{
+    width: 175px;
+    height: 50px;
+}
+/* navs style */
+.nav-top{
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.carousel-padding{
+    padding: 30px;
+}
+
+/* carousel sliding image and informatio */
+/* span h1 tag */
+.heading-info-style{
+    color: green;
+}
+/* heading font style */
+.heading-font-style{
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* opacity control */
+.paragraph-opacity{
+    color: rgba(0, 0, 0, 0.596);
+}
+/* carousel indicators */
+.carousel-indicators .active {
+    width: 40px;
+    height: 10px;
+    background-image: linear-gradient(30deg, orange, #f1c54b);
+}
+.carousel-indicators li {
+    background-color: gray;
+    width: 15px;
+    height: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* showing information section */
+.cate-info{
+    background: rgba(186, 241, 212, 0.25);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cate-info:hover{
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px lightgray;
+}
+.cate-logo-resize{
+    height: 70px;
+}
+.cate-box{
+    padding: 10px;
+    text-align: center;
+}
+
+/* button syyle */
+.btn-forall{
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 25px;
+    cursor: pointer
+}
+
+/* course title and courses */
+.course-title h3{
+    text-align: center;
+    font-weight: bolder;
+}
+/* card footer icon resize */
+.footer-icon-resize{
+    height: 25px;
+    width: 25px;
+}
+/* inline display */
+.footer-display{
+    font-size: 15px;
+}
+/* card border radius */
+.card{
+    border-radius: 12px;
+}
+/* card footer */
+.card-footer{
+    border: none;
+    background: white;
+}
+/* testimonial */
+.testimonial h3{
+    text-align: center;
+    font-weight: bolder;
+}
+.testimonial-image{
+    width: 100px;
+    padding: 5px;
+}
+.paragraph-testimonial{
+    padding: 15px;
+}
+/* footer */
+.footer-color{
+    background: black;
+    color: white;
+}
+.col-md-2 p{
+    margin: 0;
+    padding: 2;
+}
+.footer-copyright{
+    text-align: center;
+    padding: 20px;
+
+}
+/* padding bottom */
+.paddinf-btm{
+    padding-bottom: 20px;
+}

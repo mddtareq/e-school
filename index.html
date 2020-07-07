@@ -1,11 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom/style.css">
     <title>E-SCHOOL</title>
 </head>
+
 <body>
+    <header class="heading-color">
+        <!-- navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Logo Here -->
+                <a class="navbar-brand" href="#"><img class="logo-resize" src="icon/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navlinks Here -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link nav-top" href="#">Books <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-top" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-top" href="#">Others</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-top" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button class="btn-forall">Sign In</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Carousel -->
+        <div class="container container-btm">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel infromation and slide images -->
+                <div class="carousel-inner carousel-padding">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h6 class="text-danger">Are You ready to Learn?</h6>
+                                <h1 class="heading-font-style">Learn With fun</h1>
+                                <h1 class="heading-font-style"> on <span class="heading-info-style">any schedule</span>
+                                </h1>
+                                <p class="paragraph-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quos quas natus velit alias.</p>
+                                <button class="btn-forall">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/Illustration.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h6 class="text-danger">Are You ready to Learn?</h6>
+                                <h1 class="heading-font-style">Learn With fun</h1>
+                                <h1 class="heading-font-style"> on <span class="heading-info-style">any schedule</span>
+                                </h1>
+                                <p class="paragraph-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quos quas natus velit alias.</p>
+                                <button class="btn-forall">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/Illustration.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h6 class="text-danger">Are You ready to Learn?</h6>
+                                <h1 class="heading-font-style">Learn With fun</h1>
+                                <h1 class="heading-font-style"> on <span class="heading-info-style">any schedule</span>
+                                </h1>
+                                <p class="paragraph-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quos quas natus velit alias.</p>
+                                <button class="btn-forall">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/Illustration.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- shownig category information -->
+    <section>
+        <div class="container container-btm">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="cate-info">
+                        <img class="cate-logo-resize paddinf-btm" src="icon/book.png" alt="">
+                        <h3>1500+ Topics.</h3>
+                        <h6>Learn Anythings</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cate-info">
+                        <img class="cate-logo-resize paddinf-btm" src="icon/Student.png" alt="">
+                        <h3>1800+ Students</h3>
+                        <h6>Learn Anythings</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cate-info">
+                        <img class="cate-logo-resize paddinf-btm" src="icon/Test.png" alt="">
+                        <h3>9k+ Test Token</h3>
+                        <h6>Learn Anythings</h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cate-info">
+                        <img class="cate-logo-resize paddinf-btm" src="icon/Students.png" alt="">
+                        <h3>2000+ Student</h3>
+                        <h6>Learn Anythings</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Online Courses section -->
+    <section>
+        <div class="container container-btm course-title">
+            <h3>Online Courses</h3>
+        </div>
+        <div class="container container-btm">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/Morder pyschology.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern pyschology</h5>
+                        <p class="card-text">Course Subject Modern pyschology</p>
+                        <button class="btn-forall">Buy Course</button>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/calendar.png" alt=""> Start
+                            20 April,2021</p>
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/people.png" alt=""> 60 seats
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Morder psyc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern pyschology</h5>
+                        <p class="card-text">Course Subject Modern pyschology</p>
+                        <button class="btn-forall">Buy Course</button>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/calendar.png" alt=""> Start
+                            20 April,2021</p>
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/people.png" alt=""> 60 seats
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Morder pychons.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern pyschology</h5>
+                        <p class="card-text">Course Subject Modern pyschology</p>
+                        <button class="btn-forall">Buy Course</button>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/calendar.png" alt=""> Start
+                            20 April,2021</p>
+                        <p class="footer-display"><img class="footer-icon-resize" src="icon/people.png" alt=""> 60 seats
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section -->
+    <section>
+        <div class="container container-btm testimonial">
+            <h3>Testimonial</h3>
+        </div>
+        <div class="container container-btm">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8 d-flex justify-content-between">
+                    <img class="testimonial-image" src="images/Man.png" alt="">
+                    <p class="paragraph-testimonial">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis harum incidunt magni natus totam nobis vero corporis porro alias culpa ad rem, tenetur aliquid deserunt sapiente molestiae obcaecati hic impedit?</p>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer-color">
+        <div class="container container-btm">
+            <br>
+            <div class="row ">
+                <div class="col-md-5">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus consectetur mollitia, inventore aliquam vitae doloribus. Reiciendis cumque nemo ea.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6><b>Course</b></h6>
+                    <p>Graphic Design</p>
+                    <p>Business</p>
+                    <p>Web Design</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h6><b>Teams</b></h6>
+                    <p>Graphic Design</p>
+                    <p>Business</p>
+                    <p>Web Design</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h6><b>Useful Link</b></h6>
+                    <p>Graphic Design</p>
+                    <p>Business</p>
+                    <p>Web Design</p>
+                    <p>Marketing</p>
+                    <p>Engineering</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-copyright">
+            <p>
+                Copyright &copy; 2020 Programming-hero.com
+            </p>
+        </div>
+    </footer>
     
+
+
+    <!-- javascript resources -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>`
 </body>
+
 </html>
