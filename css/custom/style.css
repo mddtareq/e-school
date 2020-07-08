@@ -97,7 +97,8 @@
 }
 /* card border radius */
 .card{
-    border-radius: 12px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgray;
 }
 /* card footer */
 .card-footer{
