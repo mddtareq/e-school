@@ -111,7 +111,8 @@
     font-weight: bolder;
 }
 .testimonial-image{
-    width: 130px;
+    height: 100px;
+    width: 110px;
     padding: 5px;
 }
 .paragraph-testimonial{
@@ -139,3 +140,11 @@
 .paddinf-btm{
     padding-bottom: 20px;
 }
+
+/* media query */
+@media only screen and (max-width: 320px) {
+    .logo-resize{
+        width: 130px;
+        height: 50px;
+    }
+  }
